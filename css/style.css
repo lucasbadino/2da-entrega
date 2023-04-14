@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/* header */
+header{
+    min-height: 9vh ;
+}
+.logo-nav{
+ width: 120px;
+}
+/* main */
+main{
+    min-height: 65vh;
+}
+.div-carrusel{
+    background-color: rgb(187, 187, 187);
+}
+.main-carrusel {
+width: 85%;
+margin: auto;
+}
+main .img-car img{
+    height: 70vh;
+    object-fit: contain;
+}
+.cards{
+    max-width: 80vw;
+    margin: auto;
+}
+.cards a{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding-top: 20px;
+}
+.h1-index{
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin-top: 25px;
+}
+.opiniones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+/* footer */
+footer{
+    min-height: 25vh;
+}
