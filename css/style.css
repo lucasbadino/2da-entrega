@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 
 *{
     padding: 0;
@@ -19,9 +20,10 @@ header{
 
 main{
     min-height: 65vh;
+    margin: 15px;
 }
 .div-carrusel{
-    background-color: rgb(187, 187, 187);
+    background-color: rgba(136, 136, 136, 0.277);
 }
 .main-carrusel {
 width: 85%;
@@ -203,3 +205,67 @@ body {
     opacity: 1;
     filter: contrast(150%);
 }
+
+/* financiacion */
+.grid-area{
+    border: 1px solid black;
+    margin: 1px;
+    grid-gap: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+        "area-1 area-1-img"
+        "area-2-img area-2"
+        "area-3 area-3-img"
+        "area-4-img area-4"
+    ;
+}
+.img-grid{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-grid{
+    padding: 2rem 7rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: #8b3737c5;
+    background-color: #bac9a4a9;
+}
+.area-1{
+    grid-area: area-1;
+}
+.area-1-img{
+    grid-area: area-1-img;
+    background-image: url("https://andigital.com.ar/media/k2/items/cache/f4467b92df2c973ad438e25fddf5d764_XL.jpg");    
+}
+
+.area-2{
+    grid-area: area-2;
+}
+.area-2-img{
+    grid-area: area-2-img;
+    background-image: url("https://d31dn7nfpuwjnm.cloudfront.net/images/valoraciones/0034/6063/Mejores_prestamos_prendarios_para_autos_2019.jpg?1563825869");
+}
+
+.area-3{
+    grid-area: area-3;
+
+}
+.area-3-img{
+    grid-area: area-3-img;
+    background-image: url("https://static.wixstatic.com/media/648ad0_5e4a356604d5479abf383171c954d628~mv2.jpg/v1/fill/w_498,h_332,al_c,q_85,usm_0.66_1.00_0.01/648ad0_5e4a356604d5479abf383171c954d628~mv2.jpg");
+}
+
+.area-4{
+    grid-area: area-4;
+
+}
+.area-4-img{
+    grid-area: area-4-img;
+    background-image: url("https://i1.wp.com/generamas.com/wp-content/uploads/2019/05/56c9a22f8d466d6ab2c07e2e081d-1449321.jpgd_.jpeg?fit=1024%2C684&ssl=1");
+}
+
+
