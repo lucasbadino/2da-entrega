@@ -54,10 +54,12 @@ main .img-car img {
     margin: auto;
     padding-top: 20px;
 }
-.cards a img{
+
+.cards a img {
     object-fit: contain;
     overflow: hidden;
 }
+
 .h1-index {
     text-align: center;
     font-family: 'Lora', serif;
@@ -203,23 +205,26 @@ body {
 
 /* carrucel postventa */
 
-.carrusel-post{
+.carrusel-post {
     width: 95%;
-    margin: auto;    
+    margin: auto;
 }
-.text{
+
+.text {
     font-size: large;
     color: #040000b1;
     font-weight: bold;
 }
-.text h5{
+
+.text h5 {
     font-size: xx-large;
 }
-.div-post{
+
+.div-post {
     margin: 2rem;
 }
 
-.flex-post{
+.flex-post {
     display: flex;
     margin: 2rem 0;
     justify-content: space-around;
@@ -229,17 +234,20 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
-.block-text{
+
+.block-text {
     display: block;
     padding: 2rem;
-    width: 50% ;
+    width: 50%;
 }
-.flex-img{
+
+.flex-img {
     width: 50%;
     overflow: hidden;
     object-position: center;
 }
-.form-turno-post{
+
+.form-turno-post {
     margin: 2rem;
 }
 
@@ -430,6 +438,7 @@ footer {
         color: #b19292fa;
     }
 }
+
 /* query grid financiacion 1024px  */
 @media (max-width:1024px) {
     .text-grid {
@@ -437,30 +446,38 @@ footer {
         font-size: medium;
     }
 }
+
 /* query postventa flex 767px  */
 @media (max-width:767px) {
-    .flex-post{
+    .flex-post {
         flex-wrap: wrap;
-        
+
     }
-    .block-text{
-        padding: 1rem;  
+
+    .block-text {
+        padding: 1rem;
         width: 100%;
     }
-    .flex-img{
+
+    .flex-img {
         width: 100%;
     }
 }
+
 /* query carrusel nuevos */
-@media (max-width: 767px){
+@media (max-width: 767px) {
     .div-car {
         height: 200px;
     }
-        
+
     .div-car img:hover {
         width: 120px;
     }
-    .cards-nuevos{
+
+    .cards-nuevos {
+        margin: 20px 0;
+    }
+    .cards-usados {
         margin: 20px 0;
     }
 }
