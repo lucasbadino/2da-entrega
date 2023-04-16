@@ -26,6 +26,25 @@ main {
     margin: 15px;
 }
 
+.whatsapp {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.whatsapp img {
+    width: 90px;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.whatsapp img:hover {
+    cursor: pointer;
+    opacity: 1;
+    filter: contrast(130%);
+
+}
+
 .div-carrusel {
     background-color: rgba(136, 136, 136, 0.277);
 }
@@ -47,7 +66,8 @@ main .img-car img {
     text-align: center;
     justify-content: center;
 }
-.width-card-index{
+
+.width-card-index {
     min-width: 20rem;
 }
 
@@ -480,6 +500,7 @@ footer {
     .cards-nuevos {
         margin: 20px 0;
     }
+
     .cards-usados {
         margin: 20px 0;
     }
