@@ -47,6 +47,9 @@ main .img-car img {
     text-align: center;
     justify-content: center;
 }
+.width-card-index{
+    min-width: 20rem;
+}
 
 .cards a {
     width: 270px;
