@@ -54,7 +54,10 @@ main .img-car img {
     margin: auto;
     padding-top: 20px;
 }
-
+.cards a img{
+    object-fit: contain;
+    overflow: hidden;
+}
 .h1-index {
     text-align: center;
     font-family: 'Lora', serif;
@@ -348,6 +351,16 @@ footer {
 }
 
 /* seccion media query */
+
+/* index carrusel */
+@media (max-width:767px) {
+    main .img-car img {
+        height: 50vh;
+        object-fit: contain;
+    }
+
+}
+
 /* query grid financiacion 767px*/
 @media (max-width:767px) {
     .grid-area {
@@ -446,5 +459,8 @@ footer {
         
     .div-car img:hover {
         width: 120px;
+    }
+    .cards-nuevos{
+        margin: 20px 0;
     }
 }
