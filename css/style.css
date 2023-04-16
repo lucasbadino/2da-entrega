@@ -198,8 +198,49 @@ body {
     font-size: 18px;
 }
 
+/* carrucel postventa */
 
-/* carrusel */
+.carrusel-post{
+    width: 95%;
+    margin: auto;    
+}
+.text{
+    font-size: large;
+    color: #040000b1;
+    font-weight: bold;
+}
+.text h5{
+    font-size: xx-large;
+}
+.div-post{
+    margin: 2rem;
+}
+
+.flex-post{
+    display: flex;
+    margin: 2rem 0;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    background-color: hsla(0, 1%, 74%, 0.322);
+    align-items: center;
+    flex-wrap: wrap;
+}
+.block-text{
+    display: block;
+    padding: 2rem;
+    width: 50% ;
+}
+.flex-img{
+    width: 50%;
+    overflow: hidden;
+    object-position: center;
+}
+.form-turno-post{
+    margin: 2rem;
+}
+
+/* carrusel index*/
 .div-car {
     display: flex;
     width: 100%;
@@ -307,7 +348,7 @@ footer {
 }
 
 /* seccion media query */
-
+/* query grid financiacion 767px*/
 @media (max-width:767px) {
     .grid-area {
         margin: 1px;
@@ -376,10 +417,47 @@ footer {
         color: #b19292fa;
     }
 }
-
+/* query grid financiacion 1024px  */
 @media (max-width:1024px) {
     .text-grid {
         padding: 2rem;
         font-size: medium;
+    }
+}
+/* query postventa flex 767px  */
+@media (max-width:767px) {
+    .flex-post{
+        flex-wrap: wrap;
+        
+    }
+    .block-text{
+        padding: 1rem;  
+        width: 100%;
+    }
+    .flex-img{
+        width: 100%;
+    }
+}
+/* query carrusel nuevos */
+@media (max-width: 767px){
+    .div-car {
+        display: flex;
+        width: 100%;
+        height: 200px;
+    }
+    
+    .div-car img {
+        width: 0;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+    
+    .div-car img:hover {
+        cursor: cell;
+        width: 120px;
+        opacity: 1;
+        filter: contrast(150%);
     }
 }
